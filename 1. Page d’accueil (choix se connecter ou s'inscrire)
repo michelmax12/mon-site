@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue sur Mon Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bienvenue sur Mon Site</h1>
+    <button onclick="window.location.href='login.html'">Se connecter</button>
+    <button onclick="window.location.href='signup.html'">S'inscrire</button>
+  </div>
+
+</body>
+</html>
